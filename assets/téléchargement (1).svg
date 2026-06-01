@@ -1,0 +1,38 @@
+<svg width="220" height="120" viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Colors -->
+  <defs>
+    <style>
+      .blue { fill: #0A1A2F; }
+      .gold { fill: #C89B2C; }
+      .line { stroke: #C89B2C; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <!-- Roof -->
+  <path d="M80 60 L150 20 L220 60" fill="none" stroke="#0A1A2F" stroke-width="4"></path>
+
+  <!-- Buildings -->
+  <rect x="105" y="30" width="20" height="30" class="blue"></rect>
+  <rect x="135" y="25" width="20" height="35" class="gold"></rect>
+
+  <!-- Circle accent -->
+  <circle cx="150" cy="50" r="45" fill="none" stroke="#C89B2C" stroke-width="2"></circle>
+
+  <!-- N2N -->
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="36" class="blue" font-weight="bold">N</text>
+  <text x="130" y="105" font-family="Arial, sans-serif" font-size="36" class="gold" font-weight="bold">2</text>
+  <text x="190" y="105" font-family="Arial, sans-serif" font-size="36" class="blue" font-weight="bold">N</text>
+
+  <!-- IMMO - ARCHI -->
+  <text x="70" y="135" font-family="Arial, sans-serif" font-size="14" class="blue" letter-spacing="2">IMMO - </text>
+  <text x="150" y="135" font-family="Arial, sans-serif" font-size="14" class="gold" letter-spacing="2">ARCHI</text>
+
+  <!-- Small keys near I -->
+  <circle cx="60" cy="128" r="3" class="blue"></circle>
+  <rect x="60" y="128" width="2" height="8" class="blue"></rect>
+
+  <circle cx="65" cy="128" r="3" class="gold"></circle>
+  <rect x="65" y="128" width="2" height="8" class="gold"></rect>
+
+</svg>
