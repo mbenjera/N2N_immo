@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+.header {
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: linear-gradient(
+    to right,
+    #ffffff 20%,
+    rgba(10, 26, 47, 0.85) 55%,
+    rgba(10, 26, 47, 1) 100%
+  );
+}
+
+
+
+.nav{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+  
+
+}
+
+.RDV{
+  
+  background-color: transparent;
+  color: #D4AF37;
+
+  width: 120px;
+  height: 50px;
+
+  border: 2px solid #D4AF37;
+  border-radius: 12px;
+
+  font-size: 1rem;
+  font-weight: 700;
+
+  
+
+
+}
+
+.RDV:hover{
+  background-color: transparent;
+  color: #ee670c;
+  border: 2px solid #ee670c;
+  cursor: pointer;
+}
+
+.nav-item{
+  font-family: "Bebas Neue", sans-serif;
+  float: left;
+  margin: 30px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #D4AF37;
+  
+
+}
+
+.nav-item:hover{
+  color: #ee670c;
+  text-decoration: underline;
+}
+
+
+.hero{
+
+    background-image: url('assets/Hero.png');
+    background-size: cover;
+    padding: 60px;
+}
+
+.first{
+     font-family: "Bebas Neue", sans-serif;
+     font-size: 64px;
+     color: white;
+     text-align: left;
+     margin-left: 80px;
+     margin-top: 25px;
+     
+}
+
+.second {
+    font-family: "Bebas Neue", sans-serif;
+    color: #D4AF37;
+    margin-top: -50px;
+    text-align: left;
+     margin-left: 80px;
+     
+     font-size: 64px;
+}
+
+.point{
+    color: #D4AF37;
+    font-weight: 700;
+    font-size: 24px;
+    
+}
+
+.colored{
+    color: #D4AF37;
+}
+
+.hero>p{
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: #E0E0E0;
+  margin-left: 80px;
+  
+}
+
+.contact-btn{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    background-color: #D4AF37;
+    color: black;
+    font-size: 32px;
+    margin-left: 80px;
+    margin-top: 25px;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: 0.3s;
+    
+}
+
+.contact-btn:hover {
+   
+        
+        background-color: transparent;
+        border: 2px solid #D4AF37;
+        color: #D4AF37;
+}
+
+.header>img{
+  width: 150px;
+  height: 80px;
+  
+}
+
+/* 2eme section  */
+
+.location-split {
+  display: flex;
+}
+
+.box {
+  font-family: "Bebas Neue", sans-serif;
+  width: 50%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 0px 0px 80px;
+  
+  
+}
+
+
+
+/* 👉 IMAGE GAUCHE */
+.left {
+  background-image: url('assets/locataire.jpg');
+}
+
+/* 👉 IMAGE DROITE */
+.right {
+  background-image: url('assets/proprietaire.jpg');
+}
+
+/* 👉 Overlay sombre pour lisibilité */
+.overlay {
+  background: rgba(10, 26, 47, 0.7);
+  height: 100%;
+  padding: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  
+}
+
+.contact-btn1{
+
+  font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    background-color: #D4AF37;
+    color: black;
+    font-size: 32px;
+    margin-left: 80px;
+    margin-top: 25px;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition: 0.3s;
+    align-items: self-start;
+    
+
+}
+
+.contact-btn1:hover {
+   
+        
+        background-color: transparent;
+        border: 2px solid #D4AF37;
+        color: #D4AF37;
+}
+
